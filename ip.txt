@@ -1,0 +1,5 @@
+[HaProxy]
+Public_IP_EC2  ansible_ssh_private_key_file=/root/webserver.pem
+
+[WebServer]
+Public_IP_EC2 ansible_ssh_private_key_file=/root/webserver.pem
